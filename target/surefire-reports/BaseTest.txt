@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: BaseTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.568 s <<< FAILURE! - in BaseTest
+mainTest(BaseTest)  Time elapsed: 18.957 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: Element not found (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at BaseTest.mainTest(BaseTest.java:37)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.xpath: .//li[contains(@class, 'f-menu-l-i')][./a[contains(., 'Смартфоны')]]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ADMIN_PC', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_112'
+Driver info: driver.version: unknown
+	at BaseTest.mainTest(BaseTest.java:37)
+

@@ -1,0 +1,6 @@
+com\home\pages\Helpers.class
+com\home\pages\HomePage.class
+com\home\pages\ItemPage.class
+com\home\PageFactory.class
+com\home\pages\BasePage.class
+com\home\pages\ResultsPage.class
