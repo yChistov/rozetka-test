@@ -24,7 +24,6 @@ public class BaseTest {
         caps.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, "http://rozetka.com.ua");
 
         driver = new InternetExplorerDriver(caps);
-//        driver = new ChromeDriver();
         pages = new PageFactory(driver, "http://rozetka.com.ua");
     //STEP 1
         driver.manage().window().maximize();

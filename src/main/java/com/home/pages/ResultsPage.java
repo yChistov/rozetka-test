@@ -22,7 +22,6 @@ public class ResultsPage extends BasePage {
         locators.put("resultItemsTitle$", ".g-i-tile-i-title");
         locators.put("resultSortingTypeButton$", ".sort-view-link");
         locators.put("resultSortingTypeListItems$x", ".//li[contains(@class, 'sort-view-l-i')]/a[contains(., '%s')]");
-
     }
 
     public void setPriceFilter(String min, String max) {
@@ -82,7 +81,6 @@ public class ResultsPage extends BasePage {
         }catch (TimeoutException e) {
             System.out.println("Progressbar was not shown");
         }
-
     }
 
     @Override
